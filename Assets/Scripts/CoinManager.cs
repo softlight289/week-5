@@ -15,6 +15,6 @@ public class CoinManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(ObjCenter.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(ObjCenter.transform.position, Vector3.up, 15 * Time.deltaTime);
     }
 }
